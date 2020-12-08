@@ -1,7 +1,7 @@
 # Casting Agency
 ##### Udacity Full stack Nanodegree Capstone Project
 
-The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies.
+The motivation for this project is to create my capstone project for Udacity's Fullstack Nanodegree program. This project models a Casting Agency company that is responsible for creating movies and managing and assigning actors to those movies.
 
 ## API URL 
 - **Heroku:** https://casting-agency-sv.herokuapp.com/
@@ -16,7 +16,29 @@ Authentication and Authorization implemented using Auth0
 #### Roles
 - Executive Producer
 - Casting Director
-- Casting Assistance
+- Casting Assistant
+
+#### Permissions
+Roles have been assigned the following permissions:
+- Casting Assistant
+    - get:movies
+    - get:actors
+- Casting Director
+    - get:movies
+    - get:actors
+    - post:actors
+    - delete:actors
+    - patch:actors
+    - patch:movies
+- Exeuctive Producer
+    - get:movies
+    - get:actors
+    - post:actors
+    - delete:actors
+    - patch:actors
+    - patch:movies
+    - post:movies
+    - delete:movies
 
 ## Project Dependencies
 
