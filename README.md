@@ -171,7 +171,7 @@ test.bat
 ```
 
 
-#### DELETE /movies/<int:id\>
+#### DELETE /movies/\<int:id\>
 
 - Deletes a movies by id.
 - Roles authorized : Executive Producer.
@@ -279,7 +279,7 @@ test.bat
 ```
 
 
-#### DELETE /actors/<int:id\>
+#### DELETE /actors/\<int:id\>
 
 - Deletes an actor by id form the url parameter.
 - Roles authorized : Casting Director,Executive Producer.
